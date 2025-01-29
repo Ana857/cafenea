@@ -1,0 +1,34 @@
+footer{
+    background-color: rgb(124, 52, 52, 0.73);
+    width: 100%;
+}
+.footer_div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: aliceblue;
+    gap: 50px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px; 
+}
+@media (max-width:810px) {
+    .footer_div{
+        flex-wrap: wrap;
+    }
+}
+.icons{
+    width: 50px;
+}
+.div_icons{
+    /* display: flex;
+    flex-direction: row;
+    justify-zent: right; */
+    margin-top: 5px;
+    gap: 10px;
+}
+.div_ads_prg{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

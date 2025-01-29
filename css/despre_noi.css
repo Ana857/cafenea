@@ -1,0 +1,44 @@
+
+.story{
+    
+    /* position: relative; */
+    padding-top: 150px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+.first_paragraph{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.second_paragraph{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.div_barist_img{
+    
+    /* margin-left: 150px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 50px;
+    
+}
+@media (max-width: 810px) {
+    .div_barist_img{
+        flex-wrap: wrap;
+    }
+}
+.img_barist{
+    width: 400px;
+    border-radius: 30px;
+}
+
+

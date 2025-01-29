@@ -1,0 +1,247 @@
+.hr-lines {
+    /* border: 1px solid black; */
+    width: 200px;
+    /* margin-bottom: 20px; */
+    /* font-family: sans-serif; */
+    /* margin: 100px auto; */
+    /* padding-top: 250px; */
+    /* margin-left: 100px; */
+    color: rgb(148, 127, 127);
+    font-size: 25px;
+    /* max-width: 400px; */
+    position: absolute;
+    align-items: center;
+    height: 30px;
+    /* margin-left: 5px;  */
+    bottom: 0;
+
+}
+
+.hr-lines-left {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 2px;
+    /* margin-left: 80px; */
+    background: rgb(148, 127, 127);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    /* bottom: 0%; */
+    position: absolute;
+    margin-right: 90px;
+}
+
+.hr-lines-right {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 2px;
+    background: rgb(148, 127, 127);
+    right: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-left: 90px;
+    /* margin-left: 30px; */
+    /* padding-left: 10px; */
+}
+.first_menu{
+    /* border: 1px solid black; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 200px; */
+    height: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    /* margin-left: 35px; */
+}
+.hr-lines-left-second {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    /* margin-left: 80px; */
+    background: rgb(148, 127, 127);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    /* bottom: 0%; */
+    position: absolute;
+    margin-right: 60px;
+}
+.hr-lines-right-second {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: rgb(148, 127, 127);
+    right: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-left: 60px;
+    /* margin-left: 30px; */
+    /* padding-left: 10px; */
+}
+.paragraph{
+    color: rgb(98, 98, 98);
+    font-size: 11px;
+}
+
+
+/* .espresso {
+    padding-left: 90px;
+} */
+
+.title_desert {
+    font-size: 25px;
+    padding-left: 80px;
+}
+
+.ingredients_coffee {
+    color: rgb(110, 110, 110);
+    margin-left: 90px;
+}
+
+/* .align {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .price_espr {
+    padding-left: 225px;
+}
+
+.price_mocha {
+    padding-left: 226px;
+}
+
+.price_flate {
+    padding-left: 266px;
+}
+
+.price_caramel {
+    padding-left: 210px;
+} */
+
+/* .hr-lines-deserts {
+    font-family: sans-serif;
+    padding-top: 250px;
+    padding-left: 240px;
+    color: rgb(148, 127, 127);
+    text-align: center;
+    font-size: 25px;
+    max-width: 400px;
+    position: relative;
+} */
+
+/* .hr-lines-deserts:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin-left: 100px;
+    background: rgb(148, 127, 127);
+    left: 0;
+    bottom: 5%;
+    position: absolute;
+} */
+
+/* .hr-lines-deserts:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin-left: 80px;
+    background: rgb(148, 127, 127);
+    right: 0;
+    bottom: 5%;
+    position: absolute;
+} */
+
+.container_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 400px;
+    padding-bottom: 200px;
+}
+@media (max-width: 1496px) {
+    .container_menu{
+        flex-wrap:wrap ;
+    }
+}
+.second_menu{
+    /* border: 1px solid black; */
+    /* width: 800px; */
+}    
+/* }
+.price_tarta{
+    padding-left: 243px;
+}
+.price_cheesecake{
+    padding-left: 126px;
+}
+.price_brownie{
+    padding-left: 206px;
+}
+.price_tiramisu{
+    padding-left: 250px;
+}
+.price_carrot{
+    padding-left: 274px;
+}
+.price_macarons{
+    padding-left: 223px;
+}
+.price_verde{
+    padding-left: 280px;
+} */
+/* .price_negru{
+    padding-left: 280px;
+} */
+/* .price_iasomie{
+    padding-left: 239px;
+}
+.price_ceai_caramel {
+padding-left: 193px;
+}
+.price_fructe{
+    padding-left: 169px;
+}
+.price_ghimbir{
+    padding-left: 172px;
+} */
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+
+}
+.product{
+    /* border: 1px solid black; */
+   padding-left: 5px;
+}
+.column{
+    /* padding-left: 60px; */
+}
+/* .paragraph{
+    display: flex;
+    flex-direction: row;
+} */
+.price{
+    /* border: 1px solid black; */
+    width: 40px;
+ }
+ .container_adresa{
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+ }
